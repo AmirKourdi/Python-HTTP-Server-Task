@@ -1,8 +1,8 @@
-#Pyhon-HTTP-Server
+# Pyhon-HTTP-Server
 Simple Web Server written in Python
 
-$WELCOME_MSG
-To Run:
+
+# To Run:
 export WELCOME_MSG="Hello World"
 python3 http-server.py
 To Test:
