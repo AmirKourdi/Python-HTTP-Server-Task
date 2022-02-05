@@ -8,9 +8,9 @@ Simple Web Server written in Python
 
 # To Test:
 curl http://localhost:80
-*** Python - Hello World ! ***
-WELCOME_MSG : Hello World
-IP is : <IP>
+> *** Python - Hello World ! ***
+> WELCOME_MSG : Hello World
+> IP is : <IP>
 
 
 # To Build
