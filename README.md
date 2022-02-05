@@ -32,8 +32,5 @@ WELCOME_MSG : Hello World
 IP is : 192.168.1.5
   
 
-# How to access container from outside
-docker run --rm -it -p 80:80 <image-name>
-
 #Image loaded here
 https://hub.docker.com/r/85575/python-http-task-akourdi
