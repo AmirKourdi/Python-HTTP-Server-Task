@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    environment {
+        JENKINS_ENV = "True"
+    }
+    stages {
+        stage('Checkout Source'){
+            steps{
+                checkout(
+                    [
+                        $class: 'GitSCM',
+                        branches: [[name: 'origin/main']],
+                        doGenerateSubmoduleConfigurations: false
+                    ])
+            }
+        }
+    }
+    post {
+        always {
+            echo 'I will always say Hello again!'
+        }
+    }
+}
