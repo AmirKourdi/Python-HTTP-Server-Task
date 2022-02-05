@@ -8,10 +8,11 @@ Simple Web Server written in Python
 
 # To Test:
 curl http://localhost:80
+<p>
 *** Python - Hello World ! ***
 WELCOME_MSG : Hello World
 IP is : <IP>
-
+  </P>
 # To Build
 docker build -t python-http-task-akourdi .
 To Run
