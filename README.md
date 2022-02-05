@@ -1,22 +1,15 @@
 #Pyhon-HTTP-Server
-Simple Web Server written in 'Python'
-Displays
-
+Simple Web Server written in Python
 
 $WELCOME_MSG
-Hostname
-$PID
 To Run:
 export WELCOME_MSG="Hello World"
-python hello-world.py
+python3 http-server.py
 To Test:
 curl http://localhost:80
 *** Python - Hello World ! ***
 WELCOME_MSG : Hello World
 IP is : <IP>
-Docker
-Can be used to create a docker image and run within a container.
-
 
 #To Build
 docker build -t python-http-task-akourdi .
