@@ -5,13 +5,14 @@ Simple Web Server written in Python
 # To Run:
 1. export WELCOME_MSG="Hello World"
 2. python3 http-server.py
-To Test:
+
+# To Test:
 curl http://localhost:80
 *** Python - Hello World ! ***
 WELCOME_MSG : Hello World
 IP is : <IP>
 
-#To Build
+# To Build
 docker build -t python-http-task-akourdi .
 To Run
 docker run -d -p 80:80 -e WELCOME_MSG="Hello World" python-http-task-akourdi
