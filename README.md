@@ -18,7 +18,7 @@ IP is : 172.22.34.136
 ### To Build
 docker build -t python-http-task-akourdi .
 ### To Run
-docker run -d -p 80:80 -e WELCOME_MSG="Hello World" python-http-task-akourdi
+docker run -d -p 80:80 -e WELCOME_MSG="Hello World" 85575/python-http-task-akourdi
 ### To Test
 curl http://$(docker-machine ip default):80
 
